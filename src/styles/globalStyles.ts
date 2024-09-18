@@ -34,9 +34,10 @@ export const GlobalStyles = createGlobalStyle`
     
   }
 
-  body {
+  html,body {
+    height: 100%;
     /* font-family: 'Lato-Regular'; */
-    background: #fff;
+    /* background: #fff; */
     font-synthesis: none;
   }
  

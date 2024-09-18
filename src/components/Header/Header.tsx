@@ -3,7 +3,7 @@ import Button from "../button/Button";
 
 export const Header = () => {
   return (
-    <FlexRow padding="10px" width="100%" justifycontent='space-between'>
+    <FlexRow padding="10px" width="100%" justifycontent='space-between' style={{border: '1px solid black'}}>
       <H2>BlockStar</H2>
       <Button text="Login" />
     </FlexRow>
